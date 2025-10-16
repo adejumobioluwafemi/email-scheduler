@@ -1,0 +1,9 @@
+# Database
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/emailschedulerdb
+
+# Security
+SCHEDULER_SECRET_KEY=your-super-secret-key-here
+
+# Server
+PORT=8000
+ENVIRONMENT=development
