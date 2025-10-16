@@ -24,3 +24,6 @@ Once deployed, visit `/docs` for interactive API documentation.
 
 - source venv/bin/activate
 - python install -r requirements.txt
+
+### RUN
+- uvicorn app.main:app --host 0.0.0.0 --port $PORT
